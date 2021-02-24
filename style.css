@@ -1,0 +1,27 @@
+.col {
+    background: #4285f4;
+    margin: 5px;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.flex-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 620px;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #4285f4;
+}
+.flex-grid .col {
+    flex: 0 0 40px;
+}
+.orange-color {
+    background-color: #ff6347;
+}
+div.orange-color > div.col {
+    background-color: #643579;
+}
